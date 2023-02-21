@@ -4,3 +4,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.page {
+  padding: 10px 15px;
+}
+
+.intro {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: start;
+  align-items: center;
+}
+
+.image {
+  height: 70px;
+  width: 70px;
+  margin-right: 60px;
+}
+
+.name {
+  width: fit-content;
+}
