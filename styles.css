@@ -45,3 +45,16 @@ hr {
 .hobbies {
   margin: 30px;
 }
+
+table {
+  border: black solid;
+  margin: 20px 20px;
+}
+
+th {
+  border: black solid;
+}
+
+td {
+  border: black solid;
+}
