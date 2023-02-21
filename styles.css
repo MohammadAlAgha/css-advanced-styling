@@ -47,11 +47,11 @@ img {
   height: 120px;
   width: 120px;
   border-radius: 100%;
-  transition: all 6s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 .image:hover {
-  transform: rotate(3600deg);
+  transform: rotate(3600deg) scale(1.6);
 }
 
 .name {
