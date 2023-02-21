@@ -11,6 +11,7 @@ img {
   width: 100%;
 }
 .page {
+  height: 100vh;
   padding: 10px 15px;
   animation: bgcolor infinite 2s;
 }
@@ -81,4 +82,8 @@ th {
 
 td {
   border: black solid;
+}
+
+iframe {
+  width: 300px;
 }
