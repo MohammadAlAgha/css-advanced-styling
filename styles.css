@@ -11,7 +11,27 @@ img {
   width: 100%;
 }
 .page {
+  height: 100vh;
   padding: 10px 15px;
+  animation: bgcolor infinite 2s;
+}
+
+@keyframes bgcolor {
+  0% {
+    background-color: rgb(0, 0, 0);
+  }
+  20% {
+    background-color: blue;
+  }
+  40% {
+    background-color: orangered;
+  }
+  60% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: red;
+  }
 }
 
 .intro {
@@ -24,13 +44,19 @@ img {
 }
 
 .image {
-  height: 70px;
-  width: 70px;
-  margin-right: 60px;
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  transition: all 6s ease-in-out;
+}
+
+.image:hover {
+  transform: rotate(3600deg);
 }
 
 .name {
   width: fit-content;
+  margin-left: 30px;
 }
 
 .description {
