@@ -38,5 +38,10 @@ img {
 }
 
 hr {
+  margin: 5px 0px;
   border: black 3px solid;
+}
+
+.hobbies {
+  margin: 30px;
 }
