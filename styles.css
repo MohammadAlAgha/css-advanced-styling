@@ -32,3 +32,11 @@ img {
 .name {
   width: fit-content;
 }
+
+.description {
+  margin-top: 30px;
+}
+
+hr {
+  border: black 3px solid;
+}
